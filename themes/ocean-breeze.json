@@ -8,6 +8,7 @@
     "title": "Ocean Breeze",
     "accentColorSelection": "custom",
     "accentColor": "#0EA5E9",
+    "builtInAccentColor": "cplx-blue",
     "enhanceThreadTypography": true,
     "customCss": ":root { --complexity-accent: #0ea5e9; --complexity-bg: #0f172a; --complexity-surface: #1e293b; --complexity-text: #f1f5f9; --complexity-text-muted: #94a3b8; } body { background: var(--complexity-bg) !important; color: var(--complexity-text) !important; } .bg-white { background: var(--complexity-surface) !important; } .text-gray-900 { color: var(--complexity-text) !important; } .text-gray-600 { color: var(--complexity-text-muted) !important; } .border-gray-200 { border-color: #0369a1 !important; } .hover\\:bg-gray-50:hover { background: var(--complexity-surface) !important; }"
   }
