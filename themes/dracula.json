@@ -1,0 +1,6 @@
+{
+  "id": "dracula",
+  "title": "Dracula",
+  "description": "Dark, vibrant, high-contrast UI inspired by the Dracula theme",
+  "displayBannerColors": ["#282a36", "#bd93f9", "#50fa7b", "#ff79c6"],
+  "css": ":root { --drac-bg: #282a36; --drac-surface: #1e1f29; --drac-fg: #f8f8f2; --drac-muted: #a6adc8; --drac-pink: #ff79c6; --drac-purple: #bd93f9; --drac-cyan: #8be9fd; --drac-green: #50fa7b; } body{ background: var(--drac-bg)!important; color: var(--drac-fg)!important;} .bg-white,[data-testid='thread-content']{ background: var(--drac-surface)!important; border:1px solid var(--drac-purple);} .text-gray-900,.text-black{ color: var(--drac-fg)!important;} .text-gray-600,.text-gray-500{ color: var(--drac-muted)!important;} a,.text-blue-600{ color: var(--drac-cyan)!important;} button{ background: var(--drac-purple)!important; color: var(--drac-bg)!important; }",
