@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Complexity Theme Schema",
+  "description": "Schema for Complexity browser extension community themes",
+  "type": "object",
+  "required": ["id", "title", "displayBannerColors", "css"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9-]+$",
+      "description": "Unique identifier for the theme (alphanumeric and hyphens only)"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name of the theme"
+    },
+    "description": {
+      "type": "string",
+      "description": "Optional description of the theme"
+    },
+    "displayBannerColors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^#([0-9A-Fa-f]{6}|[0-9A-Fa-f]{3})$"
+      },
+      "minItems": 1,
+      "maxItems": 5,
+      "description": "Array of hex colors for theme preview banner"
+    },
+    "css": {
+      "type": "string",
+      "description": "Final CSS styles for the theme"
+    },
+    "config": {
+      "type": "object",
+      "description": "Optional configuration object for theme customization",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "accentColor": {
+          "type": "string",
+          "pattern": "^#([0-9A-Fa-f]{6}|[0-9A-Fa-f]{3})$"
+        },
+        "accentColorSelection": {
+          "type": "string",
+          "enum": ["built-in", "custom", "default"]
+        },
+        "fonts": {
+          "type": "object",
+          "properties": {
+            "ui": {
+              "type": "string"
+            },
+            "mono": {
+              "type": "string"
+            }
+          }
+        },
+        "enhanceThreadTypography": {
+          "type": "boolean"
+        },
+        "customCss": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
