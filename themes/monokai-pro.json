@@ -1,0 +1,16 @@
+{
+  "id": "monokai-pro",
+  "title": "Monokai Pro",
+  "description": "Vivid, professional take on the classic Monokai palette",
+  "displayBannerColors": ["#2D2A2E", "#FF6188", "#A9DC76", "#78DCE8"],
+  "css": ":root{--mk-bg:#2D2A2E;--mk-surface:#1F1D20;--mk-fg:#FCFCFA;--mk-muted:#9DA0A2;--mk-pink:#FF6188;--mk-green:#A9DC76;--mk-cyan:#78DCE8;--mk-yellow:#FFD866;--mk-purple:#AB9DF2}body{background:var(--mk-bg)!important;color:var(--mk-fg)!important}.bg-white,[data-testid='thread-content']{background:var(--mk-surface)!important;border:1px solid var(--mk-purple)}.text-gray-900,.text-black{color:var(--mk-fg)!important}.text-gray-600,.text-gray-500{color:var(--mk-muted)!important}a,.text-blue-600{color:var(--mk-cyan)!important}button{background:var(--mk-pink)!important;color:var(--mk-bg)!important;border:1px solid var(--mk-yellow)!important}",
+  "config": {
+    "title": "Monokai Pro",
+    "builtInAccentColor": "cplx-blue",
+    "accentColorSelection": "custom",
+    "accentColor": "#FF6188",
+    "fonts": { "ui": "", "mono": "" },
+    "enhanceThreadTypography": true,
+    "customCss": ""
+  }
+}
