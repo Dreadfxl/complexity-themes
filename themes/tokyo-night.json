@@ -1,0 +1,16 @@
+{
+  "id": "tokyo-night",
+  "title": "Tokyo Night",
+  "description": "Cool, neon-lit aesthetic with blues and purples",
+  "displayBannerColors": ["#1A1B26", "#7AA2F7", "#BB9AF7", "#2AC3DE"],
+  "css": ":root{--tn-bg:#1A1B26;--tn-surface:#15161E;--tn-fg:#C0CAF5;--tn-muted:#A9B1D6;--tn-blue:#7AA2F7;--tn-purple:#BB9AF7;--tn-cyan:#2AC3DE;--tn-green:#9ECE6A}body{background:var(--tn-bg)!important;color:var(--tn-fg)!important}.bg-white,[data-testid='thread-content']{background:var(--tn-surface)!important;border:1px solid var(--tn-purple)}.text-gray-900,.text-black{color:var(--tn-fg)!important}.text-gray-600,.text-gray-500{color:var(--tn-muted)!important}a,.text-blue-600{color:var(--tn-blue)!important}button{background:var(--tn-blue)!important;color:var(--tn-bg)!important;border:1px solid var(--tn-cyan)!important}",
+  "config": {
+    "title": "Tokyo Night",
+    "builtInAccentColor": "cplx-blue",
+    "accentColorSelection": "custom",
+    "accentColor": "#7AA2F7",
+    "fonts": { "ui": "", "mono": "" },
+    "enhanceThreadTypography": true,
+    "customCss": ""
+  }
+}
