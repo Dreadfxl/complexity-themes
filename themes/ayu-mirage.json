@@ -1,0 +1,16 @@
+{
+  "id": "ayu-mirage",
+  "title": "Ayu Mirage",
+  "description": "Warm, muted, elegant dark theme from the Ayu family",
+  "displayBannerColors": ["#1F2430", "#F29E74", "#39BAE6", "#D4BFFF"],
+  "css": ":root{--ayu-bg:#1F2430;--ayu-surface:#191E2A;--ayu-fg:#BFBDB6;--ayu-muted:#A0A4AE;--ayu-orange:#F29E74;--ayu-cyan:#39BAE6;--ayu-purple:#D4BFFF;--ayu-green:#AAD94C}body{background:var(--ayu-bg)!important;color:var(--ayu-fg)!important}.bg-white,[data-testid='thread-content']{background:var(--ayu-surface)!important;border:1px solid var(--ayu-purple)}.text-gray-900,.text-black{color:var(--ayu-fg)!important}.text-gray-600,.text-gray-500{color:var(--ayu-muted)!important}a,.text-blue-600{color:var(--ayu-cyan)!important}button{background:var(--ayu-orange)!important;color:var(--ayu-bg)!important;border:1px solid var(--ayu-purple)!important}",
+  "config": {
+    "title": "Ayu Mirage",
+    "builtInAccentColor": "cplx-blue",
+    "accentColorSelection": "custom",
+    "accentColor": "#F29E74",
+    "fonts": { "ui": "", "mono": "" },
+    "enhanceThreadTypography": true,
+    "customCss": ""
+  }
+}
