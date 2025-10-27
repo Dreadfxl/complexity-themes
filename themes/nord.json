@@ -1,0 +1,16 @@
+{
+  "id": "nord",
+  "title": "Nord",
+  "description": "Calm, arctic-inspired palette with soft contrasts",
+  "displayBannerColors": ["#2E3440", "#88C0D0", "#81A1C1", "#A3BE8C"],
+  "css": ":root{--nord0:#2E3440;--nord1:#3B4252;--nord2:#434C5E;--nord3:#4C566A;--nord4:#D8DEE9;--nord5:#E5E9F0;--nord6:#ECEFF4;--nord7:#8FBCBB;--nord8:#88C0D0;--nord9:#81A1C1;--nord10:#5E81AC;--nord11:#BF616A;--nord12:#D08770;--nord13:#EBCB8B;--nord14:#A3BE8C;--nord15:#B48EAD}body{background:var(--nord0)!important;color:var(--nord4)!important}.bg-white,[data-testid='thread-content']{background:var(--nord1)!important;border:1px solid var(--nord3)}.text-gray-900,.text-black{color:var(--nord6)!important}.text-gray-600,.text-gray-500{color:var(--nord4)!important}a,.text-blue-600{color:var(--nord8)!important}button{background:var(--nord9)!important;color:var(--nord6)!important;border:1px solid var(--nord10)!important}",
+  "config": {
+    "title": "Nord",
+    "builtInAccentColor": "cplx-blue",
+    "accentColorSelection": "custom",
+    "accentColor": "#88C0D0",
+    "fonts": { "ui": "", "mono": "" },
+    "enhanceThreadTypography": true,
+    "customCss": ""
+  }
+}
